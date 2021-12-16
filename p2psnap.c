@@ -207,6 +207,7 @@ void* parent_thread(void* args){
       //close the parent server thread
       pthread_exit(NULL);
     }
+    parent_count++;
 
     //set the cursor of current to the beginning of the clients list
     current = clients->first;
