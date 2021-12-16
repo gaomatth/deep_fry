@@ -17,7 +17,8 @@ To run the client side, also use './p2psnap receive_folder'. For the third and f
 
 ## Sending files
 On successful run of the program, a UI should appear in the terminal. Enter in an existing path to an image (.png, .jpg, .jpeg) in this way: 
-> path/image_file.<
+> path/image_file.
+
 The file can be followed by the four characters 'f', 's', 'o', 'i', each separated by whitespace. The commands are respectively to 'deep-fry' the image, swirl the image around the center with a random degree of rotation, oil-paint the image, and implode the image, which 'crashes' the image into the center. Another command, :quit or :q, will quit the program and have the machine exit the network. 
 
 In theory, there is no limit to the number of filters one can apply to an image before sending it, but keep in mind that more filters will take more time for the machine to process. Furthermore, it will take more time for the machine to apply filters to images with larger resolutions. 
