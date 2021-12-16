@@ -460,6 +460,7 @@ char* receive_image(int fd, int client_count){
         return NULL;
     }
     ssize_t rrc = write(write_fd, result, (size_t)bytes_read);
+    client_count++;
     if(rrc <= -1){
         free(result);
         return NULL;
