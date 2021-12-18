@@ -6,9 +6,9 @@ DEEP Fry was created by Alberto Munoz and Matthew Gao
 The UI and socket header files were created by Charlie Curtsinger
 
 ## Installation and Configuration
-This project uses the GraphicsMagick API, so it needs to be installed if you plan to contribute to this open-source project. You can find the GraphicsMagick Core C API and its installation instructions at http://www.graphicsmagick.org/api/api.html 
+This project uses the GraphicsMagick Core API, so it needs to be installed if you plan to contribute to this open-source project. You can find the GraphicsMagick Core C API and its installation instructions at http://www.graphicsmagick.org/api/api.html 
 
-Otherwise, clone this repo, navigate into the directory, and use 'chmod 700 p2psnap' in the terminal to make the file executable. 
+Otherwise, clone this repo, navigate into the directory, and use 'chmod 700 p2psnap' in the terminal to make the file executable. Note that the executable file in its current form on this repo was compiled on a Linux terminal. If you are on MacOS or Windows you should run 'make clean' and rerun 'make' so you can have an executable that is compiled locally on your own computer. That probably means that even if you intend to use this program without any contributions on any other OS, you need to download the GraphicsMagick API. 
 
 ## How to use
 In the same directory as the repo, run './p2psnap receive_folder.' 'receive_folder' will be the directory in which received images from other clients and parents will appear. It is preferable and convenient to make a new directory named 'receive_folder' in the same directory as the repository specifically for receiving files, and using that as the default receive folder for this program. 
