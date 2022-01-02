@@ -2,8 +2,9 @@
 A mutant cross between garish image filters and peer-to-peer filesharing.
 
 ## Authors
-DEEP Fry was created by Alberto Munoz and Matthew Gao
-The UI and socket header files were created by Charlie Curtsinger
+DEEP Fry was created by Alberto Munoz and Matthew Gao.
+
+The UI and socket header files were created by Charlie Curtsinger.
 
 ## Installation and Configuration
 This project uses the GraphicsMagick Core API, so it needs to be installed if you plan to contribute to this open-source project. You can find the GraphicsMagick Core C API and its installation instructions at http://www.graphicsmagick.org/api/api.html 
